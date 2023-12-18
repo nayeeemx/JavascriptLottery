@@ -39,7 +39,7 @@ const deposit = () =>{   //ES6 syle of writing a funtion same as writing functio
 };
 
 
-const getNumberOfLines = () =>{   //ES6 syle of writing a funtion same as writing function deposit(){}
+const getNumberOfLines = () =>{  
     while(true){
         const lines = prompt("Enter the number of lines to bet on : ");
         const numberOfLines = parseFloat(lines);//Converting string to float 
